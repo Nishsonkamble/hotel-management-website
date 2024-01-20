@@ -1,0 +1,199 @@
+html,
+    body {
+      position: relative;
+      height: 90%;
+    }
+
+    body {
+      background: #eee;
+      font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+      font-size: 14px;
+      color: #000;
+      margin: 0;
+      padding: 0;
+	  
+    }
+	
+	
+	.navbar{
+		padding: 2px;
+	}
+	.navbar-toggler :focus{
+		box-shadow: none;
+	}
+	.navbar-nav{
+		font-size: 30px;
+		justify-content: space-between;
+		align-items: center;
+		text-transform: capitalize;
+	}
+	.collapse{
+		display: block;
+	}
+	.nav-item{
+		padding: 0 6px;
+	}
+	.nav-link{
+		color: #ooo;
+	}
+	a{
+		text-decoration: none;
+
+    }	
+	@media(max-width: 768px){
+	 .ul-bg{
+		background-color: yellow;
+	 }
+	}
+   
+   nav .nav-item a:hover{
+	color: #00ffff !important;
+	transition: .5s !important;
+   }
+   .navbar-collapse{
+	   transition: all .5s;
+   }
+   .navbar-toggler:focus{
+	   box-shadow: none;
+   }
+	
+ nav .main-btn{
+    font-size: 1rem;
+	font-weight: 500;
+	color: #fff;
+    text-transform: uppercase;
+	background-color:  transparent;
+	border:0.0625rem solid #0d6efd;
+	padding:.375rem 1.875rem;
+	line-height: 1.75rem;
+	display: inline-block;
+	transition: all 0.3s ease-out 0s;
+}
+  nav:hover .main-btn {
+	background-color: #000 !important;
+	color: #fff !important;
+ }
+ .carousel-item{
+	height:85vh;
+	background: no-repeat center center cover;
+ }
+ .carousel-item img{
+	 height: 100%;
+ }
+  .carousel-caption{
+      bottom: 60px;
+	  top: 50px;
+	  width: 70%;
+	  
+  }
+  .carousel-caption h2{
+	  font-size: 45px;
+	  color: #fff;
+  }
+  .carousel-caption p{
+	  font-size: 15px;
+  }
+  h2{
+	  font-size: 45px;
+  }
+  .booking-area{
+	    background-image: url(hotel-2.jpg);
+		background: no-repeat center center cover;
+		padding: .9805rem .877rem;
+	    height: 90%;
+		width: 90%;
+	}
+
+ .card{
+	height: 32vw;
+	flex:0 0 calc(100%/3);
+ }
+ 
+  .card img{
+	  max-width: 100%;
+	  max-height: 100%;
+	  transition: all 400ms ease-in 0s;
+	  
+  }
+   .card:hover img{
+	   transform:scale3d(1.05,1.05,1.05)!important;
+	   border: 2px #000 !important;
+   }
+  .card:hover .btn{
+	  background-color: #000 !important;
+	  color: #fff;
+  }
+  .card body{
+	  height:45px;
+      width:100%;	  
+  }
+  .card-wrapper{
+	  height: 90%;
+	  background: no-repeat center center cover;
+  }
+  .card-wrapper img{
+	  height: 50%;
+	  width: 100%;
+  }
+  .card-wrapper card-body{
+	   height: 50%;
+	   width: 100%;
+  }
+  
+  .tab-content{
+	  height: 100%;
+	  width: 100%;
+	  background: no-repeat center center cover;
+  }
+   .tab-content img{
+	    height:40vw;
+		width: 70%;
+	   
+   }
+   .service-menu-area {
+	   height:100%;
+	   width:100%;
+   }
+   .service-menu-area ul li{
+	   list-style-type: none;
+	   top:0;
+	   
+   }
+   
+   .service-menu-area ul li a{
+	  
+	   margin-bottom: .2.8125em;
+   }
+   .price-wrapper .card:hover .btn{
+	  background-color: #000 !important;
+	  color: #fff;
+  }
+   .price-wrapper{
+     height: 50% ;
+   
+   }
+  
+   .price-wrapper .card{
+	  height: 100%;
+	  width: 100%;
+  } 
+  .price-wrapper .btn{
+	  margin-top: 4px;
+	 
+  }
+	.about-wrapper{
+		width: 50%
+		marging-left: 30px;
+		
+	}  
+	   
+   }
+   .service-menu-area ul li:hover a{
+	   color: #000;
+   }
+    
+  #img{
+	  width: 50%
+	  margin-left: 35px;
+  }
+  
