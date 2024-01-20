@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8" />
+  <title>Services</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1" />
+  
+  <link  rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css">
+  <link  rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+  
+ 
+  <link href="responsive-style.css" rel="stylesheet" type="text/css">
+ 
+<style>
+ body{
+      background: #eee;
+      font-size: 14px;
+      color: #000;
+      margin: 0;
+      padding: 0;
+	  height: 85%
+	  
+    }
+	.container{
+	height: 80%;
+	
+	}
+	
+	.navbar{
+		padding: 2px;
+		
+	}
+	.navbar-toggler :focus{
+		box-shadow: none;
+	}
+	.navbar-nav{
+		font-size: 30px;
+		justify-content: space-between;
+		align-items: center;
+		text-transform: capitalize;
+	}
+	.collapse{
+		display: block;
+	}
+	.nav-item{
+		padding: 0 6px;
+	}
+	.nav-link{
+		color: #ooo;
+	color: #ooo;
+	}
+	a{
+		text-decoration: none;
+
+    }	
+	@media(max-width: 768px){
+	 .ul-bg{
+		background-color: yellow;
+	 }
+	}
+   
+   nav .nav-item a:hover{
+	color: #00ffff !important;
+	transition: .5s !important;
+   }
+   .navbar-collapse{
+	   transition: all .5s;
+   }
+   .navbar-toggler:focus{
+	   box-shadow: none;
+   }
+	
+ nav .main-btn{
+    font-size: 1rem;
+	font-weight: 500;
+	color: #fff;
+    text-transform: uppercase;
+	background-color:  transparent;
+	border:0.0625rem solid #0d6efd;
+	padding:.375rem 1.875rem;
+	line-height: 1.75rem;
+	display: inline-block;
+	transition: all 0.3s ease-out 0s;
+}
+  nav:hover .main-btn {
+	background-color: #000 !important;
+	color: #fff !important;
+ }
+  h2{
+	  font-size: 45px;
+  }
+   .tab-content{
+	  height: 100%;
+	  width: 100%;
+	  background: no-repeat center center cover;
+  }
+   .tab-content img{
+	    height:80%;
+		width: 70%;
+	   
+   }
+   .service-menu-area {
+	   height:100%;
+	   width:100%;
+   }
+   .service-menu-area ul li{
+	   list-style-type: none;
+	   top:0;
+	   
+   }
+   
+   .service-menu-area ul li a{
+	  
+	   margin-bottom: .2.8125em;
+   }
+   .service-menu-area ul li:hover a{
+	   color: #000 !important;
+   }
+	
+</style>
+ 
+</head>
+
+<body>
+
+
+<div class="container">
+   <nav class="navbar navbar-expand-md bg">
+  
+  
+    <button class="navbar-toggler me-3" type="button" data-toggle="collapse" data-target="#btn" aria-controls="btn" aria-expanded="false" aria-label="toggle navigation">
+     <span class="navbar-toggler-icon"></span> 
+	<!--<i class="fas fa-stream navbar-toggler-icon"></i>-->
+    </button>
+    <div class="collapse navbar-collapse ul-bg justify-content-end" id="btn">
+      <ul class="navbar-nav ms-auto text-center">
+       <li class="nav-item">
+        <a  class="nav-link active-link active" aria-current="page" href="file:///C:/Users/hp/Desktop/web%20technolies/font%20end/home.html?">Home</a>  
+		</li>
+		<li class="nav-item">
+        <a   class="nav-link"   href ="file:///C:/Users/hp/Desktop/web%20technolies/font%20end/about.html">About</a>
+		</li>
+		<li class="nav-item">
+        <a class="nav-link"  href="file:///C:/Users/hp/Desktop/web%20technolies/font%20end/room.html">Rooms</a>
+		</li>
+		<li class="nav-item">
+		<a class="nav-link"  href="file:///C:/Users/hp/Desktop/web%20technolies/font%20end/Services.html">Services</a>
+		</li>
+		<li class="nav-item">
+		<a class="nav-link"  href="file:///C:/Users/hp/Desktop/web%20technolies/font%20end/team.html">Team</a>
+		</li>
+		<li class="nav-item">
+		<a class="nav-link"  href="file:///C:/Users/hp/Desktop/web%20technolies/font%20end/price.html">Price</a>
+		</li>
+		<li class="nav-item mt-2 mt-lg-0">
+		<a class="main-btn text-center  badge rounded-pill text-bg-light" href="#Book Now">Book Now</a>
+		</li>
+      </ul>
+    </div>
+	</nav>
+  </div>
+  
+
+<div class="container text-center">
+	 <h2> Services</h2>
+	
+	 <div class="row row-cols-2 align-items-top">
+	   <div class="col-lg-6 col-sm-6">
+	   <div class="tab-content" id="myTabContent">
+	   
+         <div class="tab-pane fade show active" id="restaurant" role="tabpannel">
+		    <img src="resto.jpg">
+         </div>
+		 
+         <div class="tab-pane fade" id="conference" role="tabpannel">
+		   <img src="conference.jpg">
+         </div>
+		 
+         <div class="tab-pane fade" id="swimming" role="tabpannel"> 
+             <img src="swimming.jpg">
+         </div>
+		 
+		 <div class="tab-pane fade" id="health" role="tabpannel"> 
+            <img src="health.jpg">
+         </div>
+		 
+	   </div>
+      </div>
+	
+	
+	<div class="col-lg-6 col-sm-6 text-center">
+	 <div class="service-menu-area">
+	 <ul class="nav">
+      <li>
+        <a data-toggle="tab" href="#restaurant" class="active"> 
+	      <h5>Restaurant</h5>
+	      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam
+            dictum mattis velit, sit amet faucibus felis iaculis nec</p>
+	    </a>
+     </li>
+     <li>
+        <a data-toggle="tab" href="#conference"> 
+	      <h5>conference</h5>
+	      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam
+            dictum mattis velit, sit amet faucibus felis iaculis nec</p>
+	    </a>
+     </li>
+	  <li>
+        <a data-toggle="tab" href="#swimming"> 
+	      <h5>Swimming</h5>
+	      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam
+            dictum mattis velit, sit amet faucibus felis iaculis nec</p>
+	    </a>
+     </li>
+	 <li>
+        <a data-toggle="tab" href="#health"> 
+	      <h5>spa & health beauty</h5>
+	      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam
+            dictum mattis velit, sit amet faucibus felis iaculis nec</p>
+	    </a>
+     </li>
+</ul>
+	  
+	
+	</div>
+	
+	</div>
+   </div>
+
+ </div>
+ 
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+<!-- 3. BOOTSTRAP v4.0.0         JS !-->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+
+</body>
+
+
+
+</html>
+
+
+ 
+	
+     
+ 
+  
+  
+ 
